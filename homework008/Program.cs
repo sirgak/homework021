@@ -8,15 +8,12 @@ namespace homework008
         {
             string password = "exit";
             string userInput;
-            while (true) 
+            do
             {
                 Console.Write("password: ");
                 userInput = Console.ReadLine();
-                if (password  == userInput)
-                {
-                    Console.WriteLine("the end ");
-                }
             }
+            while { password != userInput };
         }
         }       
     }
